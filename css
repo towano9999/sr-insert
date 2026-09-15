@@ -4,6 +4,16 @@ const css = `
 body {
 zoom:0.9
 }
+.status{padding: 5px;}
+.media-gallery{max-width:50%}
+
+
+.status__action-bar{margin-top:10px}
+.status-card.expanded .status-card__image{width:50%}
+
+.status-card__title{font-size:1em;}
+
+
 `;
 
 body = body.replace(
