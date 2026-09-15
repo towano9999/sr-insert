@@ -1,0 +1,14 @@
+let body = $response.body;
+
+const css = `
+body {
+zoom:0.9
+}
+`;
+
+body = body.replace(
+    /<\/head>/i,
+    `<style>${css}</style></head>`
+);
+
+$done({ body });
